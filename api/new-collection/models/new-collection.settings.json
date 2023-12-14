@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_collections",
+  "info": {
+    "name": "New Collection"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Collection": {
+      "type": "string"
+    }
+  }
+}
