@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "new_collections",
+  "kind": "singleType",
+  "collectionName": "types",
   "info": {
-    "name": "New Collection"
+    "name": "Type"
   },
   "options": {
     "increments": true,
@@ -11,7 +11,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Collection": {
+    "type": {
       "type": "string"
     }
   }

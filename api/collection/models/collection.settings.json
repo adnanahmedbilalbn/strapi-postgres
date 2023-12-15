@@ -1,8 +1,8 @@
 {
-  "kind": "singleType",
-  "collectionName": "single_types",
+  "kind": "collectionType",
+  "collectionName": "collection_s",
   "info": {
-    "name": "single type"
+    "name": "collection "
   },
   "options": {
     "increments": true,

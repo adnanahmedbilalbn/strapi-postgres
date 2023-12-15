@@ -1,5 +1,5 @@
 {
-  "name": "demo-migration",
+  "name": "migration-strapi",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -28,7 +28,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "c474597c-c895-4698-8785-6e235a1b3e9c"
+    "uuid": "f923a4af-3a08-4cdd-9666-0e12522a8f19"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
