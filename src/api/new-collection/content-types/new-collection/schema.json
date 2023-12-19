@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_collections",
+  "info": {
+    "singularName": "new-collection",
+    "pluralName": "new-collections",
+    "displayName": "New-collection",
+    "name": "new-collection"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Collection": {
+      "type": "string"
+    }
+  }
+}

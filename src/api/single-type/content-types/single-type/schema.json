@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "single_types",
+  "info": {
+    "singularName": "single-type",
+    "pluralName": "single-types",
+    "displayName": "Single-type",
+    "name": "single-type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Media": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": true,
+      "required": false
+    }
+  }
+}

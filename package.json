@@ -9,20 +9,17 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "strapi": "3.6.10",
-    "strapi-admin": "3.6.10",
-    "strapi-utils": "3.6.10",
-    "strapi-plugin-content-type-builder": "3.6.10",
-    "strapi-plugin-content-manager": "3.6.10",
-    "strapi-plugin-users-permissions": "3.6.10",
-    "strapi-plugin-email": "3.6.10",
-    "strapi-plugin-upload": "3.6.10",
-    "strapi-plugin-i18n": "3.6.10",
-    "strapi-connector-bookshelf": "3.6.10",
+    "@strapi/plugin-i18n": "4.15.5",
+    "@strapi/plugin-users-permissions": "4.15.5",
+    "@strapi/strapi": "4.15.5",
     "knex": "0.21.18",
-    "pg": "8.5.1"
+    "pg": "8.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "react-tinder-card": "^1.6.4",
+    "styled-components": "^5.3.11"
   },
   "author": {
     "name": "A Strapi developer"
@@ -31,8 +28,11 @@
     "uuid": "c474597c-c895-4698-8785-6e235a1b3e9c"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "^4.15.1"
+  }
 }

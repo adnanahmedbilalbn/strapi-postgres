@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_category_component1s",
+  "info": {
+    "icon": "angry",
+    "displayName": "Component1"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}
